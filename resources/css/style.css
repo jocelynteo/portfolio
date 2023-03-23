@@ -1,0 +1,127 @@
+input, html, textarea {
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#sidebar {
+    width: 20%;
+    background-color: white;
+    padding: 2em;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+#sidebarcontent {
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#navicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navicons img {
+    display: flex;
+    height: 40px;
+    width: auto;
+    padding: 20px 5px;
+}
+
+#main-content {
+    width: 80%;
+    background-color: pink;
+    padding: 2em;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#backtotop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 900;
+    height: 50px;
+    width: auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.comingsoon {
+    background-color: transparent;
+}
+
+#form {
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-control, textarea, .button {
+    width: 90%;
+    margin: 0.2rem;
+    border: 0;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 0.4rem 5%;
+    width: 90%;
+}
+
+.button {
+    width: 30%;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    font-family: 'Lato';
+}
+
