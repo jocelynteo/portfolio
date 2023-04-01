@@ -23,12 +23,12 @@ a:active { text-decoration: none; }
 h1, h2, h3 {
     font-family: 'Lora', serif;
     color: darkgray;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0.5em;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2em;
     color: #999b83;
 }
 
@@ -310,5 +310,14 @@ label {
 
     #projectnavtext, #projectnavicons {
         display: none;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
     }
 }
