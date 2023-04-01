@@ -174,7 +174,7 @@ img {
 }
 
 .form-control, textarea, .button {
-    width: 90%;
+    width: 70%;
     margin: 0.2rem;
     border: 0;
     background-color: #f4eeed;
