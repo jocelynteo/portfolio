@@ -1,4 +1,0 @@
-f4eeed light pink bg
-ddb7ab dark pink
-303030 black text
-999b83 green CTA

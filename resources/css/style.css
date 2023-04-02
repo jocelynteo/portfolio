@@ -54,7 +54,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    overflow: auto;
     display: flex;
     padding: 2em 0;
     position: fixed
@@ -116,6 +115,7 @@ body {
 
 .projectoutline {
     padding: 1em;
+    margin: 1em;
     background-color: #ddb7ab;
     margin-top: 1em;
     border-radius: 30px;
@@ -127,6 +127,10 @@ body {
 
 .projectoutline h2 {
     color: white;
+}
+
+.project:hover {
+    background-color: #EEEDF4 ;
 }
 
 a {
@@ -145,6 +149,26 @@ a {
     padding: 1em;
     justify-content: center;
     align-items: center;
+}
+
+#projectnavlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectnavlinks p, #navlinks p {
+    padding: 0 0.5em;
+    margin: 1em 0.2em;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project h2 {
+    margin-bottom: 0;
 }
 
 .project a img {
