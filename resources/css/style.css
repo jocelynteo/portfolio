@@ -145,7 +145,7 @@ a {
     width: 50%;
     height: 100%;
     max-height: 100%;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 1em;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@ a {
 }
 
 .project a img {
-    border-radius: 30px;
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -227,7 +227,7 @@ label {
     back
 }
 /*For mobile screens*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body {
         flex-direction: column;
         width: 100%;
