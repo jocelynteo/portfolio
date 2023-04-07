@@ -18,7 +18,7 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 
-a:active { text-decoration: none; }
+a:active { text-decoration: underline; }
 
 h1, h2, h3 {
     font-family: 'Lora', serif;
@@ -69,7 +69,7 @@ body {
     padding: 0 2em;
 }
 
-#navtext img {
+#navtext img, #projectnavtext img {
     height: 100px;
     border-radius: 30%;
 }
@@ -102,6 +102,62 @@ body {
     width: auto;
 }
 
+#hero {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+/*About Me*/
+
+.aboutrow, .skills, .skillcolumn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.aboutheader {
+    width: 20%;
+    padding: 0.5em 1em;
+}
+
+/* Dotted border */
+hr.dotted {
+    border-top: 2px dotted #F3F3F3;
+    max-width: 90%;
+  }
+
+.skills {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.skillcolumn {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.edu, .exp {
+    text-align: left;
+}
+
+.fact, .food img {
+    max-width: 30%;
+    padding: 0.5em 1em;
+}
+
+.fact img, .food img {
+    border-radius: 30px;
+}
+
+.food {
+    display: flex;
+}
+/*Work*/
 #work {
     padding: 1em 10%;
 }
@@ -224,8 +280,40 @@ label {
 
 .projecttitle {
     padding: 0.5em;
-    back
 }
+
+.seemore {
+    padding: 1em 0;
+    border-radius: 30px;
+    background-color: #F4EEED;
+}
+
+.nextprojs {
+    display:flex;
+}
+
+.nextproj {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0 1em;
+}
+
+.nextproj img, .nextproj a  {
+    max-height: 150px;
+    margin-right: 1em;
+}
+
+.nextproj h3 {
+    margin: 0;
+}
+
+.nextprojtext {
+    text-align: left;
+}
+
 /*For mobile screens*/
 @media only screen and (max-width: 700px) {
     body {
@@ -245,15 +333,17 @@ label {
         padding: 1em 0;
     }
 
-    div #navtext {
-        max-width: 100%;
-        display: inline-flex;
+    #navtext a {
+        width: 100%;
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
     
     #navtext img {
         height: 40px;
         padding: 10px;
+        margin: 0;
     }
 
     #navtext p, #projectnavtext p {
@@ -343,5 +433,17 @@ label {
 
     .project {
         width: 90%;
+    }
+
+    .seemore {
+        margin: 0 2em;
+    }
+
+    .nextprojs {
+        flex-direction: column;
+    }
+
+    .nextproj {
+        margin: 1em 1em;
     }
 }
