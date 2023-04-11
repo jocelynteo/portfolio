@@ -23,12 +23,12 @@ a:active { text-decoration: underline; }
 h1, h2, h3 {
     font-family: 'Lora', serif;
     color: darkgray;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0.5em;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #999b83;
 }
 
@@ -170,7 +170,7 @@ hr.dotted {
 }
 
 .projectoutline {
-    padding: 1em;
+    padding: 0.5em;
     margin: 1em;
     background-color: #ddb7ab;
     margin-top: 1em;
@@ -290,13 +290,14 @@ label {
 
 .nextprojs {
     display:flex;
+    margin-top: 1em;
 }
 
 .nextproj {
     padding: 1em;
     display: flex;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: white;
     margin: 0 1em;
 }
