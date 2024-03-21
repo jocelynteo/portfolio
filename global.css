@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --links: "Source Sans Pro";
+  --h2: Lora;
+
+  /* font sizes */
+  --links-size: 16px;
+  --h2-size: 28px;
+  --font-size-3xl: 22px;
+  --body-italics-size: 18px;
+  --h1-size: 48px;
+
+  /* Colors */
+  --colour-gray-0: #fdfcfc;
+  --colour-gray-200: #827d7d;
+  --colour-gray-900: #272525;
+  --colour-primary-50: #f1e3df;
+  --colour-accent-50: #ede;
+  --color-lightgray: #d4d4c4;
+  --colour-accent-400: #6f6f3b;
+  --colour-gray-400: #5b5858;
+  --colour-primary-400: #7c4d3f;
+
+  /* Spacing */
+  --spacing-l: 40px;
+  --spacing-s: 16px;
+  --spacing-xxl: 120px;
+  --spacing-xl: 80px;
+  --spacing-xxxl: 200px;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-81xl: 100px;
+  --padding-31xl: 50px;
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-59xl: 78px;
+  --padding-14xl: 33px;
+  --padding-32xl: 51px;
+  --padding-13xl: 32px;
+  --padding-40xl: 59px;
+  --padding-9xs: 4px;
+  --padding-49xl: 68px;
+  --padding-63xl: 82px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+}
